@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+
+# 不跟踪包锁文件：依赖统一跟随 latest 安装
+package-lock.json
+npm-shrinkwrap.json
+yarn.lock
+pnpm-lock.yaml

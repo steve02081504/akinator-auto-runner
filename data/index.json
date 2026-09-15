@@ -1,0 +1,11 @@
+{
+	"version": 1,
+	"name": "Akinator Auto Runner 题库清单",
+	"characters": [
+		{
+			"name": "龙胆",
+			"url": "characters/龙胆.json",
+			"description": "内置角色：龙胆•阿芙萝黛蒂"
+		}
+	]
+}

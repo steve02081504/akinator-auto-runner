@@ -1,0 +1,16 @@
+<div class="aar-card" data-id="${id}">
+	${image}
+	<div class="aar-card-main">
+		<div class="aar-card-title">${name}</div>
+		<div class="aar-meta"><span>${region}</span><span>${questionCount}</span></div>
+		<div class="aar-devotion" title="${devotionLabel}">${devotionIcon}<span>${devotionSummary}</span></div>
+		<div class="aar-tags">${tags}</div>
+	</div>
+	<div class="aar-card-actions">
+		<button class="aar-primary" data-action="run-character" data-id="${id}" data-i18n-title="characters.run">${runIcon}</button>
+		<button class="${inPlaylist ? 'aar-in-playlist' : ''}" data-action="toggle-playlist" data-id="${id}" data-i18n-title="${playlistTitleKey}">${playlistIcon}</button>
+		<button data-action="edit-character" data-id="${id}" data-i18n-title="characters.edit">${editIcon}</button>
+		<button data-action="export-character" data-id="${id}" data-i18n-title="characters.export">${exportIcon}</button>
+		<button class="aar-danger-ghost" data-action="delete-character" data-id="${id}" data-i18n-title="characters.remove">${deleteIcon}</button>
+	</div>
+</div>

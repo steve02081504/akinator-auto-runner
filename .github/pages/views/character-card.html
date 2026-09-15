@@ -1,0 +1,14 @@
+<div class="character-card" data-id="${id}">
+	${image}
+	<div class="body">
+		<span class="name">${name}</span>
+		<span class="meta">${region} · ${questionCount}</span>
+		${devotion ? `<span class="devotion" title="${devotionLabel}">${devotion}</span>` : ''}
+		<div class="tags">${tags}</div>
+	</div>
+	<div class="actions">
+		<button class="btn btn-sm btn-primary" data-action="run" data-id="${id}" data-i18n="characters.run"></button>
+		<button class="btn btn-sm btn-ghost" data-action="download" data-id="${id}" data-i18n="characters.export"></button>
+		<button class="btn btn-sm btn-ghost" data-action="contribute" data-id="${id}" data-i18n="characters.contribute"></button>
+	</div>
+</div>

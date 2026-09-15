@@ -1,0 +1,164 @@
+/*
+ * 赞助位（自荐广告）样式，站点与油猴面板 / 主页面广告宿主共用。
+ *
+ * 刻意保留浅色「展示广告」观感（与深浅主题无关，就像真实广告位一样），
+ * 带「广告」角标、广告位标识、AdChoices 说明与关闭按钮。
+ * 在 Shadow DOM 中经 `:host` 生效；站点里 `:host` 会被忽略，仅用小节选择器。
+ */
+
+:host {
+	all: initial;
+	font-family: system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif;
+}
+
+.aki-card {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	background: linear-gradient(150deg, #ffffff 0%, #eef3fb 58%, #e6eefa 100%);
+	color: #16202f;
+	border: 1px solid #c9d4e6;
+	border-radius: 14px;
+	padding: 9px 11px 11px;
+	font-size: 12px;
+	line-height: 1.35;
+	box-shadow: 0 10px 30px rgba(9, 17, 33, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.7);
+	animation: aki-card-in 0.42s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.aki-card::before {
+	content: '';
+	position: absolute;
+	inset: 0 0 auto;
+	height: 3px;
+	background: linear-gradient(90deg, #2f6fed, #6f4bd8 48%, #e0a500);
+	opacity: 0.9;
+}
+
+@keyframes aki-card-in {
+	from { opacity: 0; transform: translateY(10px) scale(0.98); }
+	to { opacity: 1; transform: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.aki-card { animation: none; }
+}
+
+.aki-card-banner { max-width: 1120px; margin: 0 auto; }
+.aki-card-floating { width: 100%; }
+
+.aki-card-top {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	margin-bottom: 7px;
+}
+
+.aki-card-badge {
+	background: linear-gradient(135deg, #5b6b86, #43536e);
+	color: #fff;
+	font-size: 10px;
+	line-height: 1;
+	padding: 3px 6px;
+	border-radius: 4px;
+	letter-spacing: 0.6px;
+	text-transform: uppercase;
+}
+
+.aki-card-slot-label {
+	flex: 1;
+	font-size: 9px;
+	font-family: ui-monospace, 'SFMono-Regular', Consolas, monospace;
+	color: #93a1b8;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.aki-card-icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 22px;
+	height: 22px;
+	padding: 0;
+	background: transparent;
+	border: none;
+	border-radius: 6px;
+	color: #7b8aa3;
+	cursor: pointer;
+	transition: background 0.15s ease, color 0.15s ease;
+}
+
+.aki-card-icon:hover { color: #16202f; background: rgba(47, 111, 237, 0.12); }
+.aki-card-icon:focus-visible { outline: 2px solid #2f6fed; outline-offset: 1px; }
+
+.aki-card-body {
+	display: flex;
+	align-items: center;
+	gap: 11px;
+	padding: 7px 8px;
+	margin: 0 -4px;
+	border-radius: 10px;
+	text-decoration: none;
+	color: inherit;
+	transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.aki-card-body:hover { background: rgba(47, 111, 237, 0.07); }
+
+.aki-card-mark {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 38px;
+	height: 38px;
+	flex: none;
+	color: #2f6fed;
+	background: linear-gradient(140deg, rgba(47, 111, 237, 0.16), rgba(111, 75, 216, 0.18));
+	border-radius: 10px;
+}
+
+.aki-card-text {
+	display: flex;
+	flex-direction: column;
+	gap: 1px;
+	min-width: 0;
+	flex: 1;
+}
+
+.aki-card-headline { font-weight: 700; color: #16202f; }
+.aki-card-desc { color: #4a5a72; font-size: 11px; }
+.aki-card-byline { color: #93a1b8; font-size: 10px; }
+
+.aki-card-cta {
+	display: inline-flex;
+	align-items: center;
+	gap: 5px;
+	background: linear-gradient(135deg, #2f6fed, #4b5fd8);
+	color: #fff !important;
+	border-radius: 8px;
+	padding: 7px 11px;
+	font-weight: 600;
+	white-space: nowrap;
+	font-size: 11px;
+	flex: none;
+	box-shadow: 0 4px 12px rgba(47, 111, 237, 0.3);
+}
+
+.aki-card-body:hover .aki-card-cta { filter: brightness(1.06); }
+
+.aki-card-why {
+	margin-top: 7px;
+	padding-top: 7px;
+	border-top: 1px dashed #c9d4e6;
+	color: #6b7a91;
+	font-size: 10px;
+	line-height: 1.45;
+}
+
+/* 窄屏：CTA 换行到下一行，避免挤压文案。 */
+@media (max-width: 420px) {
+	.aki-card-body { flex-wrap: wrap; }
+	.aki-card-cta { width: 100%; justify-content: center; }
+}

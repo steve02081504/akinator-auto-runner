@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title data-i18n="app.name">Akinator Auto Runner</title>
+	<link rel="icon" href="https://akinator.com/favicon.ico">
+	<link rel="stylesheet" href="shared/sponsor.css">
+	<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+	<div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div>
+
+	<header class="site-header">
+		<div class="shell header-inner">
+			<a class="brand" href="./">
+				<span class="brand-mark" id="brand-mark"></span>
+				<span class="brand-text">
+					<strong data-i18n="app.name"></strong>
+					<small data-i18n="app.tagline"></small>
+				</span>
+			</a>
+			<div class="header-actions">
+				<span id="connection" class="pill" data-i18n="app.disconnected"></span>
+				<a class="btn btn-primary btn-sm" id="install" href="./akinator-auto-runner.user.js" data-i18n="app.install"></a>
+				<label class="field-inline" title="language">
+					<span class="icon-slot" id="locale-icon"></span>
+					<select id="locale-select"></select>
+				</label>
+				<button id="toggle-theme" class="btn btn-icon" data-i18n-title="settings.theme"></button>
+				<a class="btn btn-icon" id="github-link" href="https://github.com/steve02081504/akinator-auto-runner" target="_blank" rel="noreferrer" aria-label="GitHub"></a>
+			</div>
+		</div>
+	</header>
+
+	<section class="hero shell">
+		<span class="hero-kicker" id="hero-kicker"></span>
+		<h1 data-i18n="app.name"></h1>
+		<p class="hero-tagline" data-i18n="app.tagline"></p>
+		<div class="hero-stats">
+			<div class="stat"><b id="stat-characters">0</b><span data-i18n="hero.characters"></span></div>
+			<div class="stat"><b id="stat-answers">0</b><span data-i18n="hero.answers"></span></div>
+			<div class="stat"><b id="stat-regions">0</b><span data-i18n="hero.regions"></span></div>
+		</div>
+		<div class="hero-actions">
+			<a class="btn btn-primary btn-lg" id="install-hero" href="./akinator-auto-runner.user.js" data-i18n="app.install"></a>
+			<button class="btn btn-lg btn-ghost" id="hero-run" data-i18n="hero.tryRun"></button>
+		</div>
+	</section>
+
+	<div id="ad-slot" class="shell ad-slot"></div>
+
+	<nav class="tabs shell" id="tabs">
+		<button class="tab tab-active" data-tab="characters" data-i18n="nav.characters"></button>
+		<button class="tab" data-tab="run" data-i18n="nav.run"></button>
+		<button class="tab" data-tab="data" data-i18n="nav.data"></button>
+		<button class="tab" data-tab="contribute" data-i18n="nav.contribute"></button>
+	</nav>
+
+	<main class="shell main">
+		<section class="panel" data-panel="characters">
+			<div class="toolbar">
+				<label class="search">
+					<span class="icon-slot" id="search-icon"></span>
+					<input id="search" type="search" data-i18n-placeholder="characters.search">
+				</label>
+				<select id="region-filter" class="select" aria-label="region">
+					<option value="" data-i18n="characters.allRegions"></option>
+				</select>
+				<select id="source-filter" class="select" aria-label="source">
+					<option value="all" data-i18n="data.sourceAll"></option>
+					<option value="packs" data-i18n="data.sourcePacks"></option>
+					<option value="script" data-i18n="data.sourceScript"></option>
+				</select>
+				<button class="btn" id="reload-packs" data-i18n="data.reloadPacks"></button>
+			</div>
+			<div id="character-grid" class="char-grid"></div>
+		</section>
+
+		<section class="panel hidden" data-panel="run">
+			<div class="run-layout">
+				<div class="card">
+					<div class="card-head">
+						<select id="region-select" class="select">
+							<option value="en">en</option>
+							<option value="cn">cn</option>
+							<option value="jp">jp</option>
+							<option value="kr">kr</option>
+							<option value="fr">fr</option>
+							<option value="de">de</option>
+							<option value="es">es</option>
+							<option value="it">it</option>
+							<option value="pt">pt</option>
+							<option value="ru">ru</option>
+							<option value="tr">tr</option>
+							<option value="ar">ar</option>
+							<option value="pl">pl</option>
+							<option value="nl">nl</option>
+							<option value="id">id</option>
+							<option value="il">il</option>
+						</select>
+						<button class="btn btn-primary" id="connect" data-i18n="run.connect"></button>
+					</div>
+					<p class="hint" data-i18n="run.windowHint"></p>
+					<div id="install-hint" class="alert hidden">
+						<span data-i18n="run.noScriptHint"></span>
+						<a class="btn btn-primary btn-sm" href="./akinator-auto-runner.user.js" data-i18n="run.installHere"></a>
+					</div>
+				</div>
+
+				<div class="run-side">
+					<div class="card">
+						<div class="seg" id="run-mode">
+							<button class="seg-item active" data-mode="replay" data-i18n="run.replay"></button>
+							<button class="seg-item" data-mode="record" data-i18n="run.record"></button>
+						</div>
+						<p class="hint" id="run-mode-hint" data-i18n="run.replayHint"></p>
+						<div class="field" id="run-character-field">
+							<label data-i18n="run.character"></label>
+							<select id="run-character"></select>
+						</div>
+						<div class="field hidden" id="run-name-field">
+							<label data-i18n="run.newCharacter"></label>
+							<input id="run-name" type="text" autocomplete="off" data-i18n-placeholder="run.newCharacterPlaceholder">
+						</div>
+						<div class="row">
+							<button class="btn btn-primary" id="start-run" data-i18n="run.start"></button>
+							<button class="btn btn-danger" id="stop-run" data-i18n="run.stop"></button>
+						</div>
+					</div>
+
+					<div id="run-status" class="card"></div>
+					<div id="run-created" class="card empty-card"></div>
+					<div id="run-delay" class="card empty-card"></div>
+					<div id="run-question" class="card"></div>
+					<div id="run-proposal" class="card empty-card"></div>
+					<div class="logs-box">
+						<div class="logs-head">
+							<span data-i18n="logs.title"></span>
+							<span id="logs-count" class="logs-count"></span>
+							<span class="grow"></span>
+							<button class="btn btn-icon btn-sm" id="logs-download" data-i18n-title="logs.download"></button>
+							<button class="btn btn-icon btn-sm" id="logs-clear" data-i18n-title="logs.clear"></button>
+						</div>
+						<div id="run-logs" class="logs"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="panel hidden" data-panel="data">
+			<div class="card">
+				<h2 data-i18n="data.cloudPacks"></h2>
+				<p class="hint" data-i18n="data.cloudPacksHint"></p>
+				<div id="pack-list" class="stack"></div>
+				<div class="toolbar">
+					<input id="sub-url" class="grow" placeholder="https://.../character.json">
+					<button class="btn" id="sub-add" data-i18n="data.subscribe"></button>
+					<button class="btn" id="sub-refresh" data-i18n="data.refreshAll"></button>
+				</div>
+				<div id="sub-list" class="stack"></div>
+			</div>
+			<div class="card">
+				<h2 data-i18n="data.localFile"></h2>
+				<div class="toolbar">
+					<input id="local-file" type="file" class="file-input" accept="application/json,.json">
+					<button class="btn" id="export-local" data-i18n="data.exportCurrent"></button>
+				</div>
+			</div>
+		</section>
+
+		<section class="panel hidden" data-panel="contribute">
+			<div class="card">
+				<h2 data-i18n="contribute.title"></h2>
+				<p class="hint" data-i18n="contribute.hint"></p>
+				<div class="toolbar">
+					<select id="contribute-character" class="select"></select>
+					<button class="btn btn-primary" id="contribute-pr" data-i18n="contribute.onGithub"></button>
+					<button class="btn" id="contribute-copy" data-i18n="contribute.copy"></button>
+					<button class="btn" id="contribute-download" data-i18n="contribute.download"></button>
+				</div>
+				<textarea id="contribute-preview" class="code" rows="14" readonly></textarea>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="shell">
+			<p><span data-i18n="footer.text"></span> <a class="link" href="https://github.com/steve02081504/akinator-auto-runner" target="_blank" rel="noreferrer">GitHub</a>.</p>
+			<p data-i18n="footer.disclaimer"></p>
+		</div>
+	</footer>
+
+	<script type="module" src="./scripts/index.mjs"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<div class="aar-box aar-session ${interrupted ? 'aar-warn-box' : ''}">
+	<div class="aar-session-head">
+		<span class="aar-session-badge">${badge}</span>
+		<span class="aar-card-main">
+			<span class="aar-card-title">${title}</span>
+			<span class="aar-muted">${info}</span>
+		</span>
+		<button class="aar-icon" data-action="dismiss-session" data-i18n-title="run.dismissSession">${closeIcon}</button>
+	</div>
+	${question ? `<div class="aar-session-question">${question}</div>` : ''}
+	<div class="aar-row aar-inline">
+		<button class="aar-primary" data-action="resume-session" data-id="${characterId}">${resumeIcon}<span data-i18n="run.resume"></span></button>
+		<button data-action="dismiss-session" data-i18n="run.dismissSession"></button>
+	</div>
+</div>

@@ -1,0 +1,27 @@
+<div class="aar-player" data-role="player">
+	<div class="aar-disc ${discClass}" data-role="player-disc">
+		<div class="aar-disc-label">${avatar}</div>
+	</div>
+	<div class="aar-player-info">
+		<div class="aar-player-title">${title}</div>
+		<div class="aar-player-sub">${subtitle}</div>
+	</div>
+	<div class="aar-player-bar">
+		<span class="aar-player-bar-label" data-i18n="playlist.confidence"></span>
+		<span class="aar-player-bar-track"><i data-role="player-bar" style="width: ${progress}%"></i></span>
+		<span class="aar-player-percent" data-role="player-percent">${percentLabel}</span>
+	</div>
+	<div class="aar-player-controls">
+		<button data-action="playlist-prev" data-i18n-title="playlist.prev">${prevIcon}</button>
+		<button class="aar-primary aar-player-play" data-action="${playAction}" data-i18n-title="${playTitle}">${playIcon}</button>
+		<button data-action="playlist-next" data-i18n-title="playlist.next">${nextIcon}</button>
+		<button class="aar-player-mode" data-action="playlist-mode" data-i18n-title="${modeTitle}">${modeIcon}<span>${modeLabel}</span></button>
+	</div>
+</div>
+<div class="aar-playlist-head">
+	<span class="aar-playlist-title">${listIcon}<span data-i18n="playlist.title"></span></span>
+	<span class="aar-muted">${countLabel}</span>
+	<span class="aar-grow"></span>
+	<button data-action="playlist-clear" data-i18n-title="playlist.clear">${clearIcon}</button>
+</div>
+<div class="aar-playlist">${tracks}</div>

@@ -1,0 +1,21 @@
+{
+  "name": "akinator-auto-runner",
+  "version": "0.0.0",
+  "private": true,
+  "description": "全自动 Akinator 题库录制/回放引擎：油猴脚本 + GitHub Pages 站点",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "lint": "eslint .",
+    "test": "node --test --test-concurrency=1",
+    "check": "npm run lint && npm run build"
+  },
+  "devDependencies": {
+    "@steve02081504/exec": "latest",
+    "esbuild": "latest",
+    "playwright-core": "latest"
+  },
+  "allowScripts": {
+    "esbuild": true
+  }
+}

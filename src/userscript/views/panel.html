@@ -1,0 +1,24 @@
+<div class="aar-header" data-role="drag">
+	<span class="aar-logo">${logoIcon}</span>
+	<span class="aar-brand">
+		<span class="aar-title" data-i18n="app.panelTitle"></span>
+		<span class="aar-status" data-role="status"></span>
+	</span>
+	<span class="aar-header-actions">
+		<select class="aar-select" data-role="locale" data-action="locale" data-i18n-title="settings.language" aria-label="language">${localeOptions}</select>
+		<button class="aar-icon" data-action="toggle-theme" data-i18n-title="settings.theme">${themeIcon}</button>
+		<button class="aar-icon" data-action="expand" data-i18n-title="${expandTitle}">${expandIcon}</button>
+		<button class="aar-icon" data-action="collapse" data-i18n-title="settings.collapse">${collapseIcon}</button>
+	</span>
+</div>
+<nav class="aar-tabs" data-role="tabs"></nav>
+<div class="aar-body" data-role="body"></div>
+<div class="aar-logs-head">
+	<span class="aar-logs-title" data-i18n="logs.title"></span>
+	<span class="aar-logs-count" data-role="logs-count"></span>
+	<span class="aar-grow"></span>
+	<button class="aar-icon aar-icon-sm" data-action="dump-page" data-i18n-title="debug.dump">${dumpIcon}</button>
+	<button class="aar-icon aar-icon-sm" data-action="download-logs" data-i18n-title="logs.download">${downloadIcon}</button>
+	<button class="aar-icon aar-icon-sm" data-action="clear-logs" data-i18n-title="logs.clear">${clearIcon}</button>
+</div>
+<div class="aar-logs" data-role="logs"></div>

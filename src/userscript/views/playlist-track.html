@@ -1,0 +1,10 @@
+<div class="aar-track ${current ? 'current' : ''}" data-id="${id}">
+	<span class="aar-track-index">${index}</span>
+	${image}
+	<div class="aar-track-main">
+		<div class="aar-track-title">${name}</div>
+		<div class="aar-meta"><span>${questionCount}</span></div>
+	</div>
+	<button class="aar-primary" data-action="playlist-play-track" data-id="${id}" data-i18n-title="playlist.play">${playIcon}</button>
+	<button class="aar-danger-ghost" data-action="playlist-remove" data-id="${id}" data-i18n-title="playlist.remove">${removeIcon}</button>
+</div>

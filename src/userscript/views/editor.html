@@ -1,0 +1,29 @@
+<div class="aar-editor-head">
+	<span class="aar-editor-icon">${icon}</span>
+	<b data-i18n="${isNew ? 'characters.newTitle' : 'characters.editTitle'}"></b>
+	<span class="aar-grow"></span>
+	<button class="aar-icon" data-action="cancel-edit" data-i18n-title="characters.cancel">${closeIcon}</button>
+</div>
+<div class="aar-row"><label data-i18n="characters.name"></label><input data-field="name" value="${name}" autocomplete="off"></div>
+<div class="aar-row"><label data-i18n="characters.aliases"></label><input data-field="aliases" value="${aliases}" autocomplete="off"></div>
+<div class="aar-row"><label data-i18n="characters.description"></label><textarea data-field="description" rows="3">${description}</textarea></div>
+<div class="aar-row"><label data-i18n="characters.image"></label><input data-field="image" value="${image}" autocomplete="off"></div>
+<div class="aar-row aar-inline">
+	<label class="aar-file"><input type="file" accept="image/*" data-action="image-file">${uploadIcon}<span data-i18n="characters.uploadImage"></span></label>
+</div>
+<div class="aar-row"><label data-i18n="characters.tags"></label><input data-field="tags" value="${tags}" autocomplete="off"></div>
+<div class="aar-row aar-inline">
+	<label><span data-i18n="characters.region"></span><input data-field="region" value="${region}"></label>
+	<label><span data-i18n="characters.sid"></span><input type="number" data-field="sid" value="${sid}"></label>
+</div>
+<div class="aar-editor-sep"></div>
+<div class="aar-row aar-inline">
+	<label data-i18n="characters.questions"></label>
+	<span class="aar-grow"></span>
+	<span class="aar-muted">${questionCount}</span>
+</div>
+<p class="aar-hint" data-i18n="characters.questionsHint"></p>
+<div class="aar-list" data-role="editor-question-rows">${questions}</div>${more}
+<div class="aar-row aar-inline">
+	<button class="aar-primary" data-action="save-character">${saveIcon}<span data-i18n="characters.save"></span></button>
+</div>

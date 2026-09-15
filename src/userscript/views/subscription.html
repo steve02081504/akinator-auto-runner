@@ -1,0 +1,14 @@
+<div class="aar-sub" data-id="${id}">
+	<div class="aar-sub-head">
+		<span class="aar-card-title">${name}</span>
+		<span class="aar-muted">${kindLabel}</span>
+		<button class="aar-icon aar-danger-ghost" data-action="sub-delete" data-i18n-title="characters.remove">${deleteIcon}</button>
+	</div>
+	<div class="aar-muted aar-break">${url}</div>
+	<div class="aar-row aar-inline">
+		<label class="aar-check"><input type="checkbox" data-action="sub-enabled" ${enabled ? 'checked' : ''}> <span data-i18n="data.subEnable"></span></label>
+		<label class="aar-check"><input type="checkbox" data-action="sub-auto" ${autoUpdate ? 'checked' : ''}> <span data-i18n="data.subAuto"></span></label>
+		<button data-action="sub-refresh">${refreshIcon}<span data-i18n="data.update"></span></button>
+	</div>
+	${lastError ? `<div class="aar-warn">${lastError}</div>` : ''}
+</div>

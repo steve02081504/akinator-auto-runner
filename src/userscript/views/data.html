@@ -1,0 +1,29 @@
+<div class="aar-box">
+	<div class="aar-box-head">${localIcon}<b data-i18n="data.localFolder"></b></div>
+	<div class="aar-muted">${folderNote}</div>
+	<div class="aar-row aar-inline">
+		<button data-action="link-folder">${folderIcon}<span data-i18n="data.linkFolder"></span></button>
+		<button data-action="save-now">${saveIcon}<span data-i18n="data.saveNow"></span></button>
+		<button data-action="export-folder">${downloadIcon}<span data-i18n="data.exportFolder"></span></button>
+	</div>
+</div>
+<div class="aar-box">
+	<div class="aar-box-head">${importIcon}<b data-i18n="data.subscribeRemote"></b></div>
+	<div class="aar-row aar-inline">
+		<select data-role="sub-kind">
+			<option value="list" data-i18n="data.subscribeList"></option>
+			<option value="character" data-i18n="data.subscribeCharacter"></option>
+		</select>
+		<input class="aar-grow" data-role="sub-url" placeholder="https://.../index.json">
+		<button data-action="add-sub">${addIcon}<span data-i18n="data.subscribe"></span></button>
+	</div>
+	<div class="aar-list">${subscriptions}</div>
+	<div class="aar-row aar-inline">
+		<button data-action="refresh-subs">${refreshIcon}<span data-i18n="data.refreshAll"></span></button>
+	</div>
+</div>
+<div class="aar-row aar-links">
+	<a href="${REPO_URL}" target="_blank" rel="noreferrer" data-i18n="app.repo"></a>
+	<a href="${PAGES_URL}" target="_blank" rel="noreferrer" data-i18n="app.webVersion"></a>
+	<a href="${USERSCRIPT_URL}" target="_blank" rel="noreferrer" data-i18n="app.updateScript"></a>
+</div>

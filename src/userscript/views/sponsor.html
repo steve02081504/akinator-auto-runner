@@ -1,0 +1,18 @@
+<aside class="aki-card aki-card-${variant}" data-ad-slot="${adSlot}" data-ad-network="${adNetwork}">
+	<div class="aki-card-top">
+		<span class="aki-card-badge" data-i18n="sponsor.badge"></span>
+		<span class="aki-card-slot-label">${adSlot}</span>
+		<button type="button" class="aki-card-icon" data-ad-action="info" data-i18n-aria-label="sponsor.info" data-i18n-title="sponsor.info">${infoIcon}</button>
+		<button type="button" class="aki-card-icon" data-ad-action="close" data-i18n-aria-label="sponsor.close" data-i18n-title="sponsor.close">${closeIcon}</button>
+	</div>
+	<a class="aki-card-body" href="${url}" target="_blank" rel="sponsored noopener noreferrer">
+		<span class="aki-card-mark">${markIcon}</span>
+		<span class="aki-card-text">
+			<span class="aki-card-headline" data-i18n="sponsor.headline"></span>
+			<span class="aki-card-desc" data-i18n="sponsor.description"></span>
+			<span class="aki-card-byline">${brand} · by ${advertiser}</span>
+		</span>
+		<span class="aki-card-cta"><span data-i18n="sponsor.cta"></span>${ctaIcon}</span>
+	</a>
+	<div class="aki-card-why" hidden data-i18n="sponsor.why"></div>
+</aside>

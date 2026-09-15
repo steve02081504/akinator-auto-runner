@@ -1,0 +1,12 @@
+<div class="aar-box aar-run">
+	<div class="aar-run-head">
+		<span class="aar-chip">${roundLabel}</span>
+		<span class="aar-chip">${stepLabel}</span>
+		<span class="aar-chip aar-chip-win">${winLabel}</span>
+		<span class="aar-chip aar-chip-loss">${lossLabel}</span>
+		${recording ? `<span class="aar-chip aar-chip-rec">${recordedLabel}</span>` : ''}
+		<span class="aar-grow"></span>
+		<span class="aar-muted">${progressLabel}</span>
+	</div>
+	<div class="aar-progress"><i style="width:${progress}%"></i></div>
+</div>

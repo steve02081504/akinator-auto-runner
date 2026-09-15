@@ -1,0 +1,3464 @@
+{
+	"version": 1,
+	"name": "龙胆",
+	"updatedAt": 1789484254351,
+	"characters": {
+		"龙胆": {
+			"id": "龙胆",
+			"name": "龙胆•阿芙萝黛蒂",
+			"aliases": [
+				"龙胆"
+			],
+			"description": "steve02081504开发的开源人工智能助手",
+			"image": "https://photos.clarinea.fr/BL_1_fr/none.jpg",
+			"tags": [],
+			"region": "cn",
+			"sid": 1,
+			"mergedIds": [],
+			"createdAt": 1789439914845,
+			"updatedAt": 1789482800700,
+			"answers": {
+				"你描述的对象的性别是女性吗？": {
+					"answer": 0,
+					"question": "你描述的对象的性别是女性吗？",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789454502483
+				},
+				"你描述的对象真实吗？": {
+					"answer": 1,
+					"question": "你描述的对象真实吗？",
+					"questionId": "1549",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789460074776
+				},
+				"你描述的对象来自于电子游戏吗？": {
+					"answer": 3,
+					"question": "你描述的对象来自于电子游戏吗？",
+					"questionId": "664",
+					"weights": [
+						0,
+						0,
+						0,
+						1,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789473445734
+				},
+				"你描述的对象是学生吗？": {
+					"answer": 1,
+					"question": "你描述的对象是学生吗？",
+					"questionId": "7390",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789461462209
+				},
+				"你描述的对象是来自中国的游戏吗？": {
+					"answer": 3,
+					"question": "你描述的对象是来自中国的游戏吗？",
+					"questionId": "310263",
+					"weights": [
+						0,
+						0,
+						0,
+						1,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789468193822
+				},
+				"你描述的对象名字是两个字吗？": {
+					"answer": 0,
+					"question": "你描述的对象名字是两个字吗？",
+					"questionId": "322714",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789473431354
+				},
+				"你描述的对象使用枪支吗？": {
+					"answer": 4,
+					"question": "你描述的对象使用枪支吗？",
+					"questionId": "15511",
+					"weights": [
+						0,
+						0,
+						0,
+						0,
+						1
+					],
+					"count": 1,
+					"updatedAt": 1789473453570
+				},
+				"你描述的对象有尾巴吗？": {
+					"answer": 3,
+					"question": "你描述的对象有尾巴吗？",
+					"questionId": "8663",
+					"weights": [
+						0,
+						0,
+						0,
+						1,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789473492359
+				},
+				"他出自mihoyo的游戏吗？": {
+					"answer": 1,
+					"question": "他出自miHoYo的游戏吗？",
+					"questionId": "341574",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789473418963
+				},
+				"你描述的对象和枪击游戏有关吗？": {
+					"answer": 1,
+					"question": "你描述的对象和枪击游戏有关吗？",
+					"questionId": "48504",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789473461281
+				},
+				"你描述的对象讲中文吗？": {
+					"answer": 0,
+					"question": "你描述的对象讲中文吗？",
+					"questionId": "24695",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789473383781
+				},
+				"你描述的对象是黑发的吗？": {
+					"answer": 0,
+					"question": "你描述的对象是黑发的吗？",
+					"questionId": "474",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789473438779
+				},
+				"你描述的对象是人工智能吗？": {
+					"answer": 0,
+					"question": "你描述的对象是人工智能吗？",
+					"questionId": "79554",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789473522757
+				},
+				"你描述的对象是ai吗？": {
+					"answer": 0,
+					"question": "你描述的对象是AI吗？",
+					"questionId": "354940",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789473529889
+				},
+				"他會和你聊天嗎？": {
+					"answer": 0,
+					"question": "他會和你聊天嗎？",
+					"questionId": "355406",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789461259893
+				},
+				"你描述的对象来自手机游戏吗？": {
+					"answer": 1,
+					"question": "你描述的对象来自手机游戏吗？",
+					"questionId": "78987",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789473516225
+				},
+				"你描述的对象和冰有关吗？": {
+					"answer": 1,
+					"question": "你描述的对象和冰有关吗？",
+					"questionId": "14853",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789461567183
+				},
+				"你描述的对象管理过他的国家吗？": {
+					"answer": 3,
+					"question": "你描述的对象管理过他的国家吗？",
+					"questionId": "4246",
+					"weights": [
+						0,
+						0,
+						0,
+						1,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789461290684
+				},
+				"这个对象是资本主义的克星吗？": {
+					"answer": 1,
+					"question": "这个对象是资本主义的克星吗？",
+					"questionId": "346212",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789461297626
+				},
+				"你描述的对象来自电脑游戏吗？": {
+					"answer": 3,
+					"question": "你描述的对象来自电脑游戏吗？",
+					"questionId": "59975",
+					"weights": [
+						0,
+						0,
+						0,
+						1,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789461650089
+				},
+				"你描述的对象喜欢/暗恋男主角吗？": {
+					"answer": 0,
+					"question": "你描述的对象喜欢/暗恋男主角吗？",
+					"questionId": "77738",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789468340589
+				},
+				"你描述的对象经常戴帽子吗？": {
+					"answer": 1,
+					"question": "你描述的对象经常戴帽子吗？",
+					"questionId": "9839",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789461476532
+				},
+				"你描述的对象是银白头发的吗？": {
+					"answer": 1,
+					"question": "你描述的对象是银白头发的吗？",
+					"questionId": "28007",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789468277607
+				},
+				"你描述的对象是古代的吗？": {
+					"answer": 0,
+					"question": "你描述的对象是古代的吗？",
+					"questionId": "79989",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789468079541
+				},
+				"是古龙笔下的人物么？": {
+					"answer": 1,
+					"question": "是古龙笔下的人物么？",
+					"questionId": "71118",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789440046719
+				},
+				"你描述的对象是三國的角色嗎？": {
+					"answer": 1,
+					"question": "你描述的对象是三國的角色嗎？",
+					"questionId": "79431",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789468093993
+				},
+				"玩家能控制吗？": {
+					"answer": 3,
+					"question": "玩家能控制吗？",
+					"questionId": "72278",
+					"weights": [
+						0,
+						0,
+						0,
+						1,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789473478960
+				},
+				"你描述的对象给人的外表印象为红色吗？": {
+					"answer": 1,
+					"question": "你描述的对象给人的外表印象为红色吗？",
+					"questionId": "69974",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789440066683
+				},
+				"你描述的对象有孩子吗？": {
+					"answer": 1,
+					"question": "你描述的对象有孩子吗？",
+					"questionId": "154",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789440069555
+				},
+				"是某个门派的吗？": {
+					"answer": 1,
+					"question": "是某个门派的吗？",
+					"questionId": "71179",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789447588705
+				},
+				"非人类吗？": {
+					"answer": 0,
+					"question": "非人类吗？",
+					"questionId": "70422",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789440082075
+				},
+				"你描述的對象带字母p吗？": {
+					"answer": 1,
+					"question": "你描述的對象带字母P吗？",
+					"questionId": "78897",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789454714886
+				},
+				"你描述的对象是用两条腿走路的吗？": {
+					"answer": 0,
+					"question": "你描述的对象是用两条腿走路的吗？",
+					"questionId": "4780",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789440093220
+				},
+				"你描述的对象是人类吗？": {
+					"answer": 1,
+					"question": "你描述的对象是人类吗？",
+					"questionId": "43",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789468263064
+				},
+				"你描述的對象會使用弓箭嗎?": {
+					"answer": 4,
+					"question": "你描述的對象會使用弓箭嗎?",
+					"questionId": "69777",
+					"weights": [
+						0,
+						0,
+						0,
+						0,
+						1
+					],
+					"count": 1,
+					"updatedAt": 1789442313555
+				},
+				"您所描述的对象是狐狸吗？": {
+					"answer": 1,
+					"question": "您所描述的对象是狐狸吗？",
+					"questionId": "73662",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789473501315
+				},
+				"你描述的对象来自于小说吗？": {
+					"answer": 3,
+					"question": "你描述的对象来自于小说吗？",
+					"questionId": "2287",
+					"weights": [
+						0,
+						0,
+						0,
+						1,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789454867802
+				},
+				"你描述的对象是女性吗？": {
+					"answer": 0,
+					"question": "你描述的对象是女性吗？",
+					"questionId": "49",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789473398438
+				},
+				"你描述的对象有兄弟姐妹吗？": {
+					"answer": 0,
+					"question": "你描述的对象有兄弟姐妹吗？",
+					"questionId": "6606",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789468371897
+				},
+				"你描述的对象有哥哥吗？": {
+					"answer": 1,
+					"question": "你描述的对象有哥哥吗？",
+					"questionId": "19160",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789468349394
+				},
+				"你描述的对象有手机吗？": {
+					"answer": 0,
+					"question": "你描述的对象有手机吗？",
+					"questionId": "31392",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789468319813
+				},
+				"您描述的对象会说日语吗？": {
+					"answer": 0,
+					"question": "您描述的对象会说日语吗？",
+					"questionId": "303864",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789473537384
+				},
+				"你描述的对象是中国人吗？": {
+					"answer": 1,
+					"question": "你描述的对象是中国人吗？",
+					"questionId": "14001",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789461333321
+				},
+				"你描述的对象由日本游戏公司创造的吗？": {
+					"answer": 1,
+					"question": "你描述的对象由日本游戏公司创造的吗？",
+					"questionId": "36016",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789468423171
+				},
+				"你描述的对象是男性吗？": {
+					"answer": 1,
+					"question": "你描述的对象是男性吗？",
+					"questionId": "332",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789467972851
+				},
+				"是否真实存在?": {
+					"answer": 1,
+					"question": "是否真实存在?",
+					"questionId": "70165",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789468356530
+				},
+				"你描述的对象跟音乐有关吗？": {
+					"answer": 1,
+					"question": "你描述的对象跟音乐有关吗？",
+					"questionId": "300920",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789461454543
+				},
+				"你描述的对象是来自日本动漫吗？?": {
+					"answer": 1,
+					"question": "你描述的对象是来自日本动漫吗？?",
+					"questionId": "232",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789454548951
+				},
+				"你描述的对象是否有拿武器？": {
+					"answer": 3,
+					"question": "你描述的对象是否有拿武器？",
+					"questionId": "300724",
+					"weights": [
+						0,
+						0,
+						0,
+						1,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789473467334
+				},
+				"你描述的对象和海有关联吗？": {
+					"answer": 4,
+					"question": "你描述的对象和海有关联吗？",
+					"questionId": "4756",
+					"weights": [
+						0,
+						0,
+						0,
+						0,
+						1
+					],
+					"count": 1,
+					"updatedAt": 1789473473059
+				},
+				"你描述的对象是金发吗？": {
+					"answer": 1,
+					"question": "你描述的对象是金发吗？",
+					"questionId": "13",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789456670418
+				},
+				"你描述的對象來自18禁遊戲嗎?": {
+					"answer": 3,
+					"question": "你描述的對象來自18禁遊戲嗎?",
+					"questionId": "69902",
+					"weights": [
+						0,
+						0,
+						0,
+						1,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789456137898
+				},
+				"你描述的对象出現在恐怖遊戲裏嗎？": {
+					"answer": 1,
+					"question": "你描述的对象出現在恐怖遊戲裏嗎？",
+					"questionId": "300909",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789454792893
+				},
+				"你描述的对象用剑作战吗？": {
+					"answer": 0,
+					"question": "你描述的对象用剑作战吗？",
+					"questionId": "508",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789447500984
+				},
+				"是否由韩国游戏公司制作的?": {
+					"answer": 1,
+					"question": "是否由韩国游戏公司制作的?",
+					"questionId": "70205",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789468446744
+				},
+				"你描述的对象是法师吗？": {
+					"answer": 0,
+					"question": "你描述的对象是法师吗？",
+					"questionId": "77766",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789442318103
+				},
+				"你描述的对象是忍者吗？?": {
+					"answer": 1,
+					"question": "你描述的对象是忍者吗？?",
+					"questionId": "416",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789456182277
+				},
+				"你描述的对象在女仆咖啡厅打工吗？": {
+					"answer": 1,
+					"question": "你描述的对象在女仆咖啡厅打工吗？",
+					"questionId": "78323",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789442327962
+				},
+				"你描述的对象真实存在吗？": {
+					"answer": 4,
+					"question": "你描述的对象真实存在吗？",
+					"questionId": "266",
+					"weights": [
+						0,
+						0,
+						0,
+						0,
+						1
+					],
+					"count": 1,
+					"updatedAt": 1789468027161
+				},
+				"你描述的对象是绿色头发的吗？": {
+					"answer": 1,
+					"question": "你描述的对象是绿色头发的吗？",
+					"questionId": "55857",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789442343090
+				},
+				"你描述的对象出演過假面騎士嗎？": {
+					"answer": 4,
+					"question": "你描述的对象出演過假面騎士嗎？",
+					"questionId": "300250",
+					"weights": [
+						0,
+						0,
+						0,
+						0,
+						1
+					],
+					"count": 1,
+					"updatedAt": 1789442350748
+				},
+				"属于英雄聯盟吗?": {
+					"answer": 1,
+					"question": "属于英雄聯盟吗?",
+					"questionId": "70101",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789468035073
+				},
+				"你的对象是否出自原神？": {
+					"answer": 1,
+					"question": "你的对象是否出自原神？",
+					"questionId": "331605",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789442363225
+				},
+				"你描述的对象出现在“皮卡丘”系列动画片中吗？": {
+					"answer": 1,
+					"question": "你描述的对象出现在“皮卡丘”系列动画片中吗？",
+					"questionId": "2012",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789442366058
+				},
+				"你描述的对象是一个直播主吗？": {
+					"answer": 1,
+					"question": "你描述的对象是一个直播主吗？",
+					"questionId": "300875",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789451955940
+				},
+				"你描述的对象是黑白色的吗？": {
+					"answer": 1,
+					"question": "你描述的对象是黑白色的吗？",
+					"questionId": "2129",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789442376698
+				},
+				"您描述的对象是台灣人嗎?": {
+					"answer": 1,
+					"question": "您描述的对象是台灣人嗎?",
+					"questionId": "306654",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789442380473
+				},
+				"你描述的对象认识你吗？": {
+					"answer": 3,
+					"question": "你描述的对象认识你吗？",
+					"questionId": "259",
+					"weights": [
+						0,
+						0,
+						0,
+						1,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789473411285
+				},
+				"他是否是出自于您的笔下?": {
+					"answer": 1,
+					"question": "他是否是出自于您的笔下?",
+					"questionId": "351145",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789447550818
+				},
+				"你描述的对象是乙女游戏中的人物吗？": {
+					"answer": 1,
+					"question": "你描述的对象是乙女游戏中的人物吗？",
+					"questionId": "76909",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789456408885
+				},
+				"你描述的对象是否和船有关？": {
+					"answer": 1,
+					"question": "你描述的对象是否和船有关？",
+					"questionId": "303113",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789442398021
+				},
+				"你描述的对象和性有关吗？": {
+					"answer": 0,
+					"question": "你描述的对象和性有关吗？",
+					"questionId": "9022",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789468412003
+				},
+				"你描述的对象和电子游戏有关吗？": {
+					"answer": 3,
+					"question": "你描述的对象和电子游戏有关吗？",
+					"questionId": "4933",
+					"weights": [
+						0,
+						0,
+						0,
+						1,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789461433289
+				},
+				"您提的问题是和性相关吗？": {
+					"answer": 0,
+					"question": "您提的问题是和性相关吗？",
+					"questionId": "338356",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789456598814
+				},
+				"您描述的对象和恶魔有关吗？": {
+					"answer": 4,
+					"question": "您描述的对象和恶魔有关吗？",
+					"questionId": "76510",
+					"weights": [
+						0,
+						0,
+						0,
+						0,
+						1
+					],
+					"count": 1,
+					"updatedAt": 1789442419966
+				},
+				"你描述的对象有翅膀吗？": {
+					"answer": 1,
+					"question": "你描述的对象有翅膀吗？",
+					"questionId": "4868",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789468121837
+				},
+				"你描述的对象是魔女嗎？": {
+					"answer": 3,
+					"question": "你描述的对象是魔女嗎？",
+					"questionId": "300745",
+					"weights": [
+						0,
+						0,
+						0,
+						1,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789442427619
+				},
+				"你描述的对象名字是四個字吗?": {
+					"answer": 1,
+					"question": "你描述的对象名字是四個字吗?",
+					"questionId": "77713",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789456505885
+				},
+				"是魔女吗?": {
+					"answer": 3,
+					"question": "是魔女吗?",
+					"questionId": "70212",
+					"weights": [
+						0,
+						0,
+						0,
+						1,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789442438514
+				},
+				"你描述的对象头上有角吗？": {
+					"answer": 1,
+					"question": "你描述的对象头上有角吗？",
+					"questionId": "69827",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789456170605
+				},
+				"你描述的对象或被射精子吗？": {
+					"answer": 3,
+					"question": "你描述的对象或被射精子吗？",
+					"questionId": "78241",
+					"weights": [
+						0,
+						0,
+						0,
+						1,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789456589138
+				},
+				"描述对象的名字里带“氵”吗？": {
+					"answer": 0,
+					"question": "描述对象的名字里带“氵”吗？",
+					"questionId": "324343",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789473485777
+				},
+				"他是来自于像素风格游戏的角色吗？": {
+					"answer": 1,
+					"question": "他是来自于像素风格游戏的角色吗？",
+					"questionId": "325086",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789468065683
+				},
+				"使用杖作战吗？": {
+					"answer": 1,
+					"question": "使用杖作战吗？",
+					"questionId": "70198",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789442463707
+				},
+				"你描述的对象是长发吗？": {
+					"answer": 0,
+					"question": "你描述的对象是长发吗？",
+					"questionId": "398",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789442467974
+				},
+				"你描述的对象上学吗？": {
+					"answer": 4,
+					"question": "你描述的对象上学吗？",
+					"questionId": "4056",
+					"weights": [
+						0,
+						0,
+						0,
+						0,
+						1
+					],
+					"count": 1,
+					"updatedAt": 1789442474312
+				},
+				"是否戴面具/眼罩?": {
+					"answer": 1,
+					"question": "是否戴面具/眼罩?",
+					"questionId": "70606",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789456512888
+				},
+				"你描述的对象是教师吗？": {
+					"answer": 1,
+					"question": "你描述的对象是教师吗？",
+					"questionId": "349",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789447417072
+				},
+				"是弟控吗？": {
+					"answer": 1,
+					"question": "是弟控吗？",
+					"questionId": "73384",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789442493103
+				},
+				"你描述的对象来自中国吗？": {
+					"answer": 3,
+					"question": "你描述的对象来自中国吗？",
+					"questionId": "63870",
+					"weights": [
+						0,
+						0,
+						0,
+						1,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789468256793
+				},
+				"你描述的对象用箭吗？": {
+					"answer": 4,
+					"question": "你描述的对象用箭吗？",
+					"questionId": "14028",
+					"weights": [
+						0,
+						0,
+						0,
+						0,
+						1
+					],
+					"count": 1,
+					"updatedAt": 1789442505177
+				},
+				"你描述的对象来自火影忍者吗？": {
+					"answer": 1,
+					"question": "你描述的对象来自火影忍者吗？",
+					"questionId": "60789",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789468059549
+				},
+				"你描述的对象是一个软件吗?": {
+					"answer": 3,
+					"question": "你描述的对象是一个软件吗?",
+					"questionId": "329424",
+					"weights": [
+						0,
+						0,
+						0,
+						1,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789461503130
+				},
+				"您描述的对象是否来自明日方舟？": {
+					"answer": 1,
+					"question": "您描述的对象是否来自明日方舟？",
+					"questionId": "321424",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789468231405
+				},
+				"使用刀劍類武器嗎？": {
+					"answer": 0,
+					"question": "使用刀劍類武器嗎？",
+					"questionId": "71012",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789456450886
+				},
+				"这个人的姓名是三个字吗？": {
+					"answer": 1,
+					"question": "这个人的姓名是三个字吗？",
+					"questionId": "322250",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789473425879
+				},
+				"您描述的对象给许多人看过裸体吗？": {
+					"answer": 4,
+					"question": "您描述的对象给许多人看过裸体吗？",
+					"questionId": "76133",
+					"weights": [
+						0,
+						0,
+						0,
+						0,
+						1
+					],
+					"count": 1,
+					"updatedAt": 1789447492747
+				},
+				"你描述的对象和怪物作战吗？": {
+					"answer": 4,
+					"question": "你描述的对象和怪物作战吗？",
+					"questionId": "396",
+					"weights": [
+						0,
+						0,
+						0,
+						0,
+						1
+					],
+					"count": 1,
+					"updatedAt": 1789442540014
+				},
+				"你描述的对象是韩国的组合中的一员吗？": {
+					"answer": 1,
+					"question": "你描述的对象是韩国的组合中的一员吗？",
+					"questionId": "76776",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789473404536
+				},
+				"你描述的对象有紫色头发吗？": {
+					"answer": 1,
+					"question": "你描述的对象有紫色头发吗？",
+					"questionId": "53332",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789456658659
+				},
+				"他是否想要背刺他的上司？": {
+					"answer": 1,
+					"question": "他是否想要背刺他的上司？",
+					"questionId": "335066",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789447099809
+				},
+				"你描述的对象有神奇力量吗？": {
+					"answer": 0,
+					"question": "你描述的对象有神奇力量吗？",
+					"questionId": "6707",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789447119608
+				},
+				"你描述的对象是仙剑奇侠传中的人物吗？": {
+					"answer": 1,
+					"question": "你描述的对象是仙剑奇侠传中的人物吗？",
+					"questionId": "69930",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789447122137
+				},
+				"您描述的对象跟手游王者荣耀有关吗？": {
+					"answer": 1,
+					"question": "您描述的对象跟手游王者荣耀有关吗？",
+					"questionId": "306691",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789468327648
+				},
+				"你描述的对象有姐姐吗？": {
+					"answer": 0,
+					"question": "你描述的对象有姐姐吗？",
+					"questionId": "34681",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789456498888
+				},
+				"你描述的对象姓氏有「白」吗？": {
+					"answer": 1,
+					"question": "你描述的对象姓氏有「白」吗？",
+					"questionId": "302252",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789447164504
+				},
+				"你描述的对象会飞吗？": {
+					"answer": 0,
+					"question": "你描述的对象会飞吗？",
+					"questionId": "330",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789468452901
+				},
+				"你描述的角色使用法器嗎?": {
+					"answer": 1,
+					"question": "你描述的角色使用法器嗎?",
+					"questionId": "344724",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789447171328
+				},
+				"你描述的对象和花有关吗？": {
+					"answer": 0,
+					"question": "你描述的对象和花有关吗？",
+					"questionId": "20140",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789447188579
+				},
+				"你描述的对象曾经被消除过记忆吗？": {
+					"answer": 0,
+					"question": "你描述的对象曾经被消除过记忆吗？",
+					"questionId": "76718",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789447192233
+				},
+				"你描述的对象有双胞胎姐妹吗？": {
+					"answer": 1,
+					"question": "你描述的对象有双胞胎姐妹吗？",
+					"questionId": "61293",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789447203649
+				},
+				"是神嗎?": {
+					"answer": 3,
+					"question": "是神嗎?",
+					"questionId": "70065",
+					"weights": [
+						0,
+						0,
+						0,
+						1,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789447217148
+				},
+				"你描述的对象是出现在连续剧的吗？": {
+					"answer": 1,
+					"question": "你描述的对象是出现在连续剧的吗？",
+					"questionId": "238",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789454885781
+				},
+				"你描述的对象去過幻想鄉吗?": {
+					"answer": 1,
+					"question": "你描述的对象去過幻想鄉吗?",
+					"questionId": "69795",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789468389416
+				},
+				"你描述的对象和恶魔有关吗？": {
+					"answer": 3,
+					"question": "你描述的对象和恶魔有关吗？",
+					"questionId": "69951",
+					"weights": [
+						0,
+						0,
+						0,
+						1,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789456605675
+				},
+				"你选择的角色会吹笛子吗？": {
+					"answer": 0,
+					"question": "你选择的角色会吹笛子吗？",
+					"questionId": "350894",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789447277849
+				},
+				"您描述的对象出自于fate/stay night吗？": {
+					"answer": 1,
+					"question": "您描述的对象出自于Fate/stay night吗？",
+					"questionId": "300742",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789447281283
+				},
+				"您描述的对象出自于fate/zero吗？": {
+					"answer": 1,
+					"question": "您描述的对象出自于Fate/zero吗？",
+					"questionId": "69804",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789447283210
+				},
+				"你描述的对象和风有关吗?": {
+					"answer": 4,
+					"question": "你描述的对象和风有关吗?",
+					"questionId": "76783",
+					"weights": [
+						0,
+						0,
+						0,
+						0,
+						1
+					],
+					"count": 1,
+					"updatedAt": 1789447366331
+				},
+				"您描述的对象与腾讯动漫、腾讯游戏有关吗?": {
+					"answer": 1,
+					"question": "您描述的对象与腾讯动漫、腾讯游戏有关吗?",
+					"questionId": "304296",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789447370636
+				},
+				"他是现实世界存在的人物吗？": {
+					"answer": 4,
+					"question": "他是现实世界存在的人物吗？",
+					"questionId": "324961",
+					"weights": [
+						0,
+						0,
+						0,
+						0,
+						1
+					],
+					"count": 1,
+					"updatedAt": 1789447396573
+				},
+				"你描述的对象是球類運動明星嗎？": {
+					"answer": 1,
+					"question": "你描述的对象是球類運動明星嗎？",
+					"questionId": "78299",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789447400181
+				},
+				"你描述的对象是魅魔吗?": {
+					"answer": 1,
+					"question": "你描述的对象是魅魔吗?",
+					"questionId": "351907",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789468404305
+				},
+				"你描述的对象是死神吗？": {
+					"answer": 4,
+					"question": "你描述的对象是死神吗？",
+					"questionId": "10534",
+					"weights": [
+						0,
+						0,
+						0,
+						0,
+						1
+					],
+					"count": 1,
+					"updatedAt": 1789447427835
+				},
+				"您描述的对象头上长角吗？": {
+					"answer": 1,
+					"question": "您描述的对象头上长角吗？",
+					"questionId": "75935",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789447445144
+				},
+				"你描述的对象吃人吗？": {
+					"answer": 0,
+					"question": "你描述的对象吃人吗？",
+					"questionId": "78531",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789447474993
+				},
+				"你描述的对象是否反抗天使?": {
+					"answer": 1,
+					"question": "你描述的对象是否反抗天使?",
+					"questionId": "302933",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789447478315
+				},
+				"你所想的对象是红发的吗？": {
+					"answer": 1,
+					"question": "你所想的对象是红发的吗？",
+					"questionId": "69733",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789447529145
+				},
+				"你描述的对象是日本人吗？": {
+					"answer": 1,
+					"question": "你描述的对象是日本人吗？",
+					"questionId": "1075",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789468333875
+				},
+				"你描述的对象现在超过30岁了吗？": {
+					"answer": 1,
+					"question": "你描述的对象现在超过30岁了吗？",
+					"questionId": "61570",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789447542397
+				},
+				"您描述的对象有穿越時空嗎?": {
+					"answer": 0,
+					"question": "您描述的对象有穿越時空嗎?",
+					"questionId": "76033",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789447561133
+				},
+				"能让室溫下降吗?": {
+					"answer": 0,
+					"question": "能让室溫下降吗?",
+					"questionId": "70621",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789447563982
+				},
+				"你描述的对象超过50岁吗？": {
+					"answer": 1,
+					"question": "你描述的对象超过50岁吗？",
+					"questionId": "191",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789447573275
+				},
+				"您描述的对象出自著名网络小说吗？": {
+					"answer": 1,
+					"question": "您描述的对象出自著名网络小说吗？",
+					"questionId": "75829",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789447576612
+				},
+				"你描述的对象浮在空中吗？": {
+					"answer": 4,
+					"question": "你描述的对象浮在空中吗？",
+					"questionId": "77735",
+					"weights": [
+						0,
+						0,
+						0,
+						0,
+						1
+					],
+					"count": 1,
+					"updatedAt": 1789447583520
+				},
+				"你描述的对象是植物吗？": {
+					"answer": 4,
+					"question": "你描述的对象是植物吗？",
+					"questionId": "79880",
+					"weights": [
+						0,
+						0,
+						0,
+						0,
+						1
+					],
+					"count": 1,
+					"updatedAt": 1789451768377
+				},
+				"你描述的對象名子中有\"子\"嗎？": {
+					"answer": 1,
+					"question": "你描述的對象名子中有\"子\"嗎？",
+					"questionId": "79826",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789451835350
+				},
+				"是個小蘿莉嗎？": {
+					"answer": 0,
+					"question": "是個小蘿莉嗎？",
+					"questionId": "70019",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789451880160
+				},
+				"你描述的对象有粉色頭髮嗎?": {
+					"answer": 4,
+					"question": "你描述的对象有粉色頭髮嗎?",
+					"questionId": "302519",
+					"weights": [
+						0,
+						0,
+						0,
+						0,
+						1
+					],
+					"count": 1,
+					"updatedAt": 1789456144894
+				},
+				"你所描述的對象是女優嗎？": {
+					"answer": 1,
+					"question": "你所描述的對象是女優嗎？",
+					"questionId": "309427",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789451887458
+				},
+				"请问你描述的对象是三个字的吗？": {
+					"answer": 1,
+					"question": "请问你描述的对象是三个字的吗？",
+					"questionId": "321707",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789451896538
+				},
+				"你描述的对象与你玩网络天才有关吗？": {
+					"answer": 1,
+					"question": "你描述的对象与你玩网络天才有关吗？",
+					"questionId": "300431",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789451905660
+				},
+				"你描述的对象是一种鸟吗？": {
+					"answer": 1,
+					"question": "你描述的对象是一种鸟吗？",
+					"questionId": "14387",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789451924589
+				},
+				"你描述的对象是个兔子吗？": {
+					"answer": 4,
+					"question": "你描述的对象是个兔子吗？",
+					"questionId": "53745",
+					"weights": [
+						0,
+						0,
+						0,
+						0,
+						1
+					],
+					"count": 1,
+					"updatedAt": 1789451928739
+				},
+				"你描述的对象是台湾人吗？": {
+					"answer": 1,
+					"question": "你描述的对象是台湾人吗？",
+					"questionId": "24585",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789451943341
+				},
+				"你描述的对象是兽耳娘吗？": {
+					"answer": 1,
+					"question": "你描述的对象是兽耳娘吗？",
+					"questionId": "78663",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789473507985
+				},
+				"你描述的对象只有在特定线的结局才存活吗？": {
+					"answer": 1,
+					"question": "你描述的对象只有在特定线的结局才存活吗？",
+					"questionId": "77129",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789456568170
+				},
+				"你描述的对象是惡魔嗎？": {
+					"answer": 4,
+					"question": "你描述的对象是惡魔嗎？",
+					"questionId": "300039",
+					"weights": [
+						0,
+						0,
+						0,
+						0,
+						1
+					],
+					"count": 1,
+					"updatedAt": 1789452036851
+				},
+				"你描述的对象和月亮有关吗？": {
+					"answer": 4,
+					"question": "你描述的对象和月亮有关吗？",
+					"questionId": "49939",
+					"weights": [
+						0,
+						0,
+						0,
+						0,
+						1
+					],
+					"count": 1,
+					"updatedAt": 1789461483526
+				},
+				"他是人工智能和聊天机器人吗？": {
+					"answer": 0,
+					"question": "他是人工智能和聊天机器人吗？",
+					"questionId": "351782",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789464201975
+				},
+				"跟minecraft有关吗？": {
+					"answer": 1,
+					"question": "跟MINECRAFT有关吗？",
+					"questionId": "70419",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789454698795
+				},
+				"你描述的对象是短发吗？": {
+					"answer": 1,
+					"question": "你描述的对象是短发吗？",
+					"questionId": "175",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789456431318
+				},
+				"描述的对象与人工智能(ai)有关吗?": {
+					"answer": 0,
+					"question": "描述的对象与人工智能(Ai)有关吗?",
+					"questionId": "352961",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789464216039
+				},
+				"你描述的对象和机器人有关吗？": {
+					"answer": 3,
+					"question": "你描述的对象和机器人有关吗？",
+					"questionId": "65840",
+					"weights": [
+						0,
+						0,
+						0,
+						1,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789454787610
+				},
+				"你描述的对象跟交通工具有關嗎?": {
+					"answer": 1,
+					"question": "你描述的对象跟交通工具有關嗎?",
+					"questionId": "69937",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789454817641
+				},
+				"您描述的对象是妖怪嗎?": {
+					"answer": 4,
+					"question": "您描述的对象是妖怪嗎?",
+					"questionId": "76070",
+					"weights": [
+						0,
+						0,
+						0,
+						0,
+						1
+					],
+					"count": 1,
+					"updatedAt": 1789454822809
+				},
+				"你描述的对象来自神奇寶貝嗎？": {
+					"answer": 1,
+					"question": "你描述的对象来自神奇寶貝嗎？",
+					"questionId": "79324",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789454825755
+				},
+				"你描述的对象是机器人吗？": {
+					"answer": 3,
+					"question": "你描述的对象是机器人吗？",
+					"questionId": "626",
+					"weights": [
+						0,
+						0,
+						0,
+						1,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789468271113
+				},
+				"你描述的对象是绿色的吗？": {
+					"answer": 1,
+					"question": "你描述的对象是绿色的吗？",
+					"questionId": "643",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789454845698
+				},
+				"他/她的开端是被主角收养吗？": {
+					"answer": 1,
+					"question": "他/她的开端是被主角收养吗？",
+					"questionId": "346866",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789454855869
+				},
+				"他有腳嗎？": {
+					"answer": 0,
+					"question": "他有腳嗎？",
+					"questionId": "318243",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789473376349
+				},
+				"他是男生嗎？": {
+					"answer": 1,
+					"question": "他是男生嗎？",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789459178757
+				},
+				"你描述的对象在舞台上唱歌吗？": {
+					"answer": 1,
+					"question": "你描述的对象在舞台上唱歌吗？",
+					"questionId": "13577",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789456108395
+				},
+				"你描述的对象出现在”海贼王“中吗？": {
+					"answer": 1,
+					"question": "你描述的对象出现在”海贼王“中吗？",
+					"questionId": "53793",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789468000306
+				},
+				"你描述的对象和圣杯战争有关吗？": {
+					"answer": 1,
+					"question": "你描述的对象和圣杯战争有关吗？",
+					"questionId": "77059",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789456203471
+				},
+				"你描述的对象上过太空吗？": {
+					"answer": 3,
+					"question": "你描述的对象上过太空吗？",
+					"questionId": "184",
+					"weights": [
+						0,
+						0,
+						0,
+						1,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789456221707
+				},
+				"他的名字或艺名中带有c吗？": {
+					"answer": 0,
+					"question": "他的名字或艺名中带有C吗？",
+					"questionId": "325027",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789456232997
+				},
+				"他的职业是不是和黑客有关？": {
+					"answer": 1,
+					"question": "他的职业是不是和黑客有关？",
+					"questionId": "319300",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789456237004
+				},
+				"你描述的对象是科学家吗？": {
+					"answer": 3,
+					"question": "你描述的对象是科学家吗？",
+					"questionId": "26",
+					"weights": [
+						0,
+						0,
+						0,
+						1,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789456306763
+				},
+				"你描述的对象名字首字母是a吗?": {
+					"answer": 1,
+					"question": "你描述的对象名字首字母是A吗?",
+					"questionId": "321495",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789456310478
+				},
+				"你描述的对象居住在美国吗？": {
+					"answer": 1,
+					"question": "你描述的对象居住在美国吗？",
+					"questionId": "264",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789456342009
+				},
+				"你描述的对象是youtuber嗎？": {
+					"answer": 1,
+					"question": "你描述的对象是YouTuber嗎？",
+					"questionId": "309457",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789461496500
+				},
+				"他与凹凸世界有没有关?": {
+					"answer": 1,
+					"question": "他与凹凸世界有没有关?",
+					"questionId": "324700",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789456364855
+				},
+				"你描述的对象作战吗？": {
+					"answer": 0,
+					"question": "你描述的对象作战吗？",
+					"questionId": "6622",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789456381544
+				},
+				"你描述的对象死了吗？": {
+					"answer": 1,
+					"question": "你描述的对象死了吗？",
+					"questionId": "1952",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789473390896
+				},
+				"您描述的对象是漫画中的人物吗？": {
+					"answer": 1,
+					"question": "您描述的对象是漫画中的人物吗？",
+					"questionId": "76400",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789456444303
+				},
+				"你描述的对象有蓝发吗？": {
+					"answer": 1,
+					"question": "你描述的对象有蓝发吗？",
+					"questionId": "61016",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789456485399
+				},
+				"你描述的对象穿鞋吗？": {
+					"answer": 0,
+					"question": "你描述的对象穿鞋吗？",
+					"questionId": "55228",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789456488252
+				},
+				"你描述的对象和一位男人相爱吗？": {
+					"answer": 3,
+					"question": "你描述的对象和一位男人相爱吗？",
+					"questionId": "25601",
+					"weights": [
+						0,
+						0,
+						0,
+						1,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789456543119
+				},
+				"您想象中的角色被杀过吗？": {
+					"answer": 1,
+					"question": "您想象中的角色被杀过吗？",
+					"questionId": "349032",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789456550043
+				},
+				"您描述的對象是否很出名？": {
+					"answer": 4,
+					"question": "您描述的對象是否很出名？",
+					"questionId": "317902",
+					"weights": [
+						0,
+						0,
+						0,
+						0,
+						1
+					],
+					"count": 1,
+					"updatedAt": 1789456560711
+				},
+				"你描述的对象使用魔法吗？": {
+					"answer": 0,
+					"question": "你描述的对象使用魔法吗？",
+					"questionId": "1051",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789456563103
+				},
+				"你描述的对象是动画片的角色吗？": {
+					"answer": 1,
+					"question": "你描述的对象是动画片的角色吗？",
+					"questionId": "61",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789468285744
+				},
+				"你描述的对象是公主吗？": {
+					"answer": 3,
+					"question": "你描述的对象是公主吗？",
+					"questionId": "302623",
+					"weights": [
+						0,
+						0,
+						0,
+						1,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789456593699
+				},
+				"是個惡魔嗎？": {
+					"answer": 4,
+					"question": "是個惡魔嗎？",
+					"questionId": "69998",
+					"weights": [
+						0,
+						0,
+						0,
+						0,
+						1
+					],
+					"count": 1,
+					"updatedAt": 1789456652008
+				},
+				"你描述的对象来自工口游戏或视觉小说吗？": {
+					"answer": 3,
+					"question": "你描述的对象来自工口游戏或视觉小说吗？",
+					"questionId": "26668",
+					"weights": [
+						0,
+						0,
+						0,
+						1,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789456663934
+				},
+				"体型巨大吗？": {
+					"answer": 1,
+					"question": "体型巨大吗？",
+					"questionId": "70219",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789456673588
+				},
+				"你描述的对象专门从事恐怖游戏吗？": {
+					"answer": 1,
+					"question": "你描述的对象专门从事恐怖游戏吗？",
+					"questionId": "66603",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789461355633
+				},
+				"你描述的對象是否有個哥哥?": {
+					"answer": 1,
+					"question": "你描述的對象是否有個哥哥?",
+					"questionId": "322174",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789461445594
+				},
+				"你描述的对象是迪斯尼的动画人物吗？": {
+					"answer": 1,
+					"question": "你描述的对象是迪斯尼的动画人物吗？",
+					"questionId": "706",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789461515840
+				},
+				"他是否将自己上传为人工智能？": {
+					"answer": 1,
+					"question": "他是否将自己上传为人工智能？",
+					"questionId": "353316",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789461546398
+				},
+				"你描述的对象代表色是紅色的嗎?": {
+					"answer": 1,
+					"question": "你描述的对象代表色是紅色的嗎?",
+					"questionId": "304153",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789461553156
+				},
+				"这位对象是否与ai领域有所关联？": {
+					"answer": 0,
+					"question": "这位对象是否与AI领域有所关联？",
+					"questionId": "349993",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789461573341
+				},
+				"他的昵称跟动物有关吗?": {
+					"answer": 1,
+					"question": "他的昵称跟动物有关吗?",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789461633711
+				},
+				"你描述的对象是否是狐妖？": {
+					"answer": 1,
+					"question": "你描述的对象是否是狐妖？",
+					"questionId": "309410",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789467949741
+				},
+				"你描述的对象名子有關於顏色嗎？": {
+					"answer": 1,
+					"question": "你描述的对象名子有關於顏色嗎？",
+					"questionId": "79639",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789468298800
+				},
+				"你描述的对象有弟弟吗？": {
+					"answer": 1,
+					"question": "你描述的对象有弟弟吗？",
+					"questionId": "67208",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789468383068
+				},
+				"你描述的对象喜欢科学吗？": {
+					"answer": 0,
+					"question": "你描述的对象喜欢科学吗？",
+					"questionId": "45429",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789468440590
+				},
+				"你描述的对象是政治家吗？": {
+					"answer": 1,
+					"question": "你描述的对象是政治家吗？",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789473370687
+				},
+				"你描述的对象是只熊吗？": {
+					"answer": 1,
+					"question": "你描述的对象是只熊吗？",
+					"questionId": "2644",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789473801590
+				},
+				"他是关于摸金游戏的吗？": {
+					"answer": 1,
+					"question": "他是关于摸金游戏的吗？",
+					"questionId": "355368",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789474509119
+				},
+				"你描述的对象跟風有關吗?": {
+					"answer": 4,
+					"question": "你描述的对象跟風有關吗?",
+					"questionId": "77070",
+					"weights": [
+						0,
+						0,
+						0,
+						0,
+						1
+					],
+					"count": 1,
+					"updatedAt": 1789474577892
+				},
+				"你和你描述的对象住在同一所房子里吗？": {
+					"answer": 3,
+					"question": "你和你描述的对象住在同一所房子里吗？",
+					"questionId": "288",
+					"weights": [
+						0,
+						0,
+						0,
+						1,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789474940126
+				},
+				"你描述的对象有8字胡吗？": {
+					"answer": 1,
+					"question": "你描述的对象有8字胡吗？",
+					"questionId": "16",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789475211184
+				},
+				"你描述的对象是短头发吗？": {
+					"answer": 1,
+					"question": "你描述的对象是短头发吗？",
+					"questionId": "300501",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789475217325
+				},
+				"你描述的对象杀过人吗？": {
+					"answer": 0,
+					"question": "你描述的对象杀过人吗？",
+					"questionId": "9",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789475222038
+				},
+				"您描述的对象會暗殺嗎？": {
+					"answer": 0,
+					"question": "您描述的对象會暗殺嗎？",
+					"questionId": "306352",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789475225658
+				},
+				"你所想的对象出生地在湖南吗？": {
+					"answer": 1,
+					"question": "你所想的对象出生地在湖南吗？",
+					"questionId": "69744",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789475237292
+				},
+				"你描述的对象和灯神有关系吗？": {
+					"answer": 1,
+					"question": "你描述的对象和灯神有关系吗？",
+					"questionId": "300530",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789475406603
+				},
+				"你的描述对象名字是五个字吗？": {
+					"answer": 1,
+					"question": "你的描述对象名字是五个字吗？",
+					"questionId": "323692",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789475472361
+				},
+				"你描述的对象有狗吗？": {
+					"answer": 0,
+					"question": "你描述的对象有狗吗？",
+					"questionId": "10103",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789475483250
+				},
+				"你描述的对象是三人组合的一员吗？": {
+					"answer": 1,
+					"question": "你描述的对象是三人组合的一员吗？",
+					"questionId": "2743",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789475509159
+				},
+				"從魔界來的嗎?": {
+					"answer": 1,
+					"question": "從魔界來的嗎?",
+					"questionId": "72153",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789475523394
+				},
+				"你描述的对象和你关系近吗？": {
+					"answer": 0,
+					"question": "你描述的对象和你关系近吗？",
+					"questionId": "5904",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789475528624
+				},
+				"你描述的对象是位公主吗？": {
+					"answer": 3,
+					"question": "你描述的对象是位公主吗？",
+					"questionId": "7118",
+					"weights": [
+						0,
+						0,
+						0,
+						1,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789475550947
+				},
+				"你描述的对象与公主有关系吗？": {
+					"answer": 0,
+					"question": "你描述的对象与公主有关系吗？",
+					"questionId": "303898",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789475826270
+				},
+				"你描述的对象和红色有关联吗？": {
+					"answer": 1,
+					"question": "你描述的对象和红色有关联吗？",
+					"questionId": "515",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789475863876
+				},
+				"你描述的對象有變身能力嗎": {
+					"answer": 3,
+					"question": "你描述的對象有變身能力嗎",
+					"questionId": "69780",
+					"weights": [
+						0,
+						0,
+						0,
+						1,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789475873224
+				},
+				"你描述的对象跑的快吗？": {
+					"answer": 0,
+					"question": "你描述的对象跑的快吗？",
+					"questionId": "10300",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789475877553
+				},
+				"你描述的对象是色情片演员吗？": {
+					"answer": 4,
+					"question": "你描述的对象是色情片演员吗？",
+					"questionId": "94",
+					"weights": [
+						0,
+						0,
+						0,
+						0,
+						1
+					],
+					"count": 1,
+					"updatedAt": 1789475890704
+				},
+				"你描述的对象和犯罪有关吗？": {
+					"answer": 4,
+					"question": "你描述的对象和犯罪有关吗？",
+					"questionId": "30587",
+					"weights": [
+						0,
+						0,
+						0,
+						0,
+						1
+					],
+					"count": 1,
+					"updatedAt": 1789475949314
+				},
+				"你描述的对象在舞台上跳舞吗？": {
+					"answer": 1,
+					"question": "你描述的对象在舞台上跳舞吗？",
+					"questionId": "816",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789475963428
+				},
+				"他是抖音上的网红吗？": {
+					"answer": 1,
+					"question": "他是抖音上的网红吗？",
+					"questionId": "323767",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789475967621
+				},
+				"你描述的对象是男孩吗？": {
+					"answer": 1,
+					"question": "你描述的对象是男孩吗？",
+					"questionId": "331",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789475971301
+				},
+				"你描述的对象是警察或侦探吗？": {
+					"answer": 1,
+					"question": "你描述的对象是警察或侦探吗？",
+					"questionId": "6724",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789476119427
+				},
+				"你描述的对象会搭乘或使用机器人吗？": {
+					"answer": 1,
+					"question": "你描述的对象会搭乘或使用机器人吗？",
+					"questionId": "69966",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789476219767
+				},
+				"你描述的对象和你同龄吗？": {
+					"answer": 4,
+					"question": "你描述的对象和你同龄吗？",
+					"questionId": "2087",
+					"weights": [
+						0,
+						0,
+						0,
+						0,
+						1
+					],
+					"count": 1,
+					"updatedAt": 1789476227819
+				},
+				"你描述的对象还在工作吗？": {
+					"answer": 1,
+					"question": "你描述的对象还在工作吗？",
+					"questionId": "5810",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789476235050
+				},
+				"你描述的对象高吗？": {
+					"answer": 1,
+					"question": "你描述的对象高吗？",
+					"questionId": "5431",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789476240171
+				},
+				"有巨乳吗?": {
+					"answer": 0,
+					"question": "有巨乳吗?",
+					"questionId": "70600",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789476253373
+				},
+				"你描述的对象是否喜欢吃肉？": {
+					"answer": 1,
+					"question": "你描述的对象是否喜欢吃肉？",
+					"questionId": "309361",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789476258505
+				},
+				"你描述的对象是动画片里的吗?": {
+					"answer": 1,
+					"question": "你描述的对象是动画片里的吗?",
+					"questionId": "332895",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789476290482
+				},
+				"你描述的对象还健在吗？": {
+					"answer": 0,
+					"question": "你描述的对象还健在吗？",
+					"questionId": "48",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789476294921
+				},
+				"你描述的对象是白发吗？": {
+					"answer": 1,
+					"question": "你描述的对象是白发吗？",
+					"questionId": "620",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789476331176
+				},
+				"你描述的对象的头发是棕色的吗？": {
+					"answer": 3,
+					"question": "你描述的对象的头发是棕色的吗？",
+					"questionId": "5355",
+					"weights": [
+						0,
+						0,
+						0,
+						1,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789476337337
+				},
+				"你爱上过你描述的对象吗？": {
+					"answer": 3,
+					"question": "你爱上过你描述的对象吗？",
+					"questionId": "465",
+					"weights": [
+						0,
+						0,
+						0,
+						1,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789476343122
+				},
+				"你描述的对象是金属的吗？": {
+					"answer": 4,
+					"question": "你描述的对象是金属的吗？",
+					"questionId": "452",
+					"weights": [
+						0,
+						0,
+						0,
+						0,
+						1
+					],
+					"count": 1,
+					"updatedAt": 1789476350076
+				},
+				"你对你描述的对象打过招呼吗？": {
+					"answer": 0,
+					"question": "你对你描述的对象打过招呼吗？",
+					"questionId": "5977",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789476356324
+				},
+				"你描述的对象想和他做愛吗?": {
+					"answer": 0,
+					"question": "你描述的对象想和他做愛吗?",
+					"questionId": "77546",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789476368805
+				},
+				"你想像的人物来自明日方舟吗?": {
+					"answer": 1,
+					"question": "你想像的人物来自明日方舟吗?",
+					"questionId": "321540",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789476771302
+				},
+				"是米哈游旗下的游戏吗？": {
+					"answer": 1,
+					"question": "是米哈游旗下的游戏吗？",
+					"questionId": "343939",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789480883934
+				},
+				"你描述的对象来自网络游戏吗？": {
+					"answer": 1,
+					"question": "你描述的对象来自网络游戏吗？",
+					"questionId": "52952",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789481291998
+				},
+				"你描述的对象戴手套吗？": {
+					"answer": 1,
+					"question": "你描述的对象戴手套吗？",
+					"questionId": "8099",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789482784335
+				},
+				"您描述的对象对枪械很熟悉吗？": {
+					"answer": 3,
+					"question": "您描述的对象对枪械很熟悉吗？",
+					"questionId": "74788",
+					"weights": [
+						0,
+						0,
+						0,
+						1,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789482792632
+				},
+				"您描述的对象在队内是主唱吗？": {
+					"answer": 1,
+					"question": "您描述的对象在队内是主唱吗？",
+					"questionId": "75338",
+					"weights": [
+						0,
+						1,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789482796373
+				},
+				"你描述的对象有鼻子吗？": {
+					"answer": 0,
+					"question": "你描述的对象有鼻子吗？",
+					"questionId": "64976",
+					"weights": [
+						1,
+						0,
+						0,
+						0,
+						0
+					],
+					"count": 1,
+					"updatedAt": 1789482800700
+				}
+			}
+		}
+	}
+}

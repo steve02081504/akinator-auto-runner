@@ -1,0 +1,43 @@
+<div class="aar-seg" data-role="mode">
+	<button class="aar-seg-item ${recordActive ? '' : 'active'}" data-action="mode" data-mode="replay">${replayIcon}<span data-i18n="run.replay"></span></button>
+	<button class="aar-seg-item ${recordActive ? 'active' : ''}" data-action="mode" data-mode="record">${recordIcon}<span data-i18n="run.record"></span></button>
+</div>
+<div class="aar-mode-hint">${modeHint}</div>
+<div class="aar-recording" ${recording ? '' : 'hidden'}><span class="aar-rec-dot"></span><span>${recordingLabel}</span></div>
+<div class="aar-row" data-role="replay-target">
+	<label data-i18n="run.character"></label>
+	<select data-action="select-character">${options}</select>
+</div>
+<div class="aar-row" data-role="record-target" ${nameVisible ? '' : 'hidden'}>
+	<label data-i18n="run.newCharacter"></label>
+	<input data-field="new-name" value="${newName}" placeholder="${newNamePlaceholder}" autocomplete="off">
+</div>
+<details class="aar-advanced">
+	<summary>${settingsIcon}<span data-i18n="run.advanced"></span></summary>
+	<div class="aar-adv-body">
+		<div class="aar-row aar-inline">
+			<label><span data-i18n="run.rounds"></span><input type="number" min="1" max="9999" value="${settings.rounds}" data-field="rounds"></label>
+			<label><span data-i18n="run.delayMs"></span><input type="number" min="0" max="60000" step="100" value="${settings.stepDelayMs}" data-field="stepDelayMs"></label>
+			<label><span data-i18n="run.maxSteps"></span><input type="number" min="5" max="500" value="${settings.maxSteps}" data-field="maxSteps"></label>
+			<label><span data-i18n="run.provider"></span>
+				<select data-field="clientProvider">
+					<option value="auto" ${settings.clientProvider === 'auto' ? 'selected' : ''} data-i18n="run.providerAuto"></option>
+					<option value="page" ${settings.clientProvider === 'page' ? 'selected' : ''} data-i18n="run.providerPage"></option>
+					<option value="api" ${settings.clientProvider === 'api' ? 'selected' : ''} data-i18n="run.providerApi"></option>
+				</select>
+			</label>
+		</div>
+		<div class="aar-row aar-inline">
+			<label class="aar-check"><input type="checkbox" data-field="askUnknown" ${settings.askUnknown ? 'checked' : ''}> <span data-i18n="run.askUnknown"></span></label>
+			<label class="aar-check"><input type="checkbox" data-field="askProposal" ${settings.askProposal ? 'checked' : ''}> <span data-i18n="run.askProposal"></span></label>
+			<label class="aar-check"><input type="checkbox" data-field="stopOnWin" ${settings.stopOnWin ? 'checked' : ''}> <span data-i18n="run.stopOnWin"></span></label>
+			<label class="aar-check"><input type="checkbox" data-field="bellEnabled" ${settings.bellEnabled ? 'checked' : ''}> <span data-i18n="run.bell"></span></label>
+			<label><span data-i18n="run.bellDelay"></span><input type="number" min="0" max="600000" step="1000" value="${settings.bellDelayMs}" data-field="bellDelayMs"></label>
+		</div>
+	</div>
+</details>
+<div class="aar-row aar-inline aar-run-actions">
+	<button class="aar-primary ${startClass} ${running ? 'aar-busy' : ''}" data-action="start" ${running ? 'disabled' : ''}>${startIcon}<span>${startLabel}</span></button>
+	<button class="aar-danger" data-action="stop" ${running ? '' : 'disabled'}>${stopIcon}<span data-i18n="run.stop"></span></button>
+</div>
+<div class="aar-run-parts" data-role="run-parts">${parts}</div>

@@ -1,0 +1,9 @@
+<div class="aar-box aar-ask ${answering ? 'aar-highlight' : ''}">
+	<div class="aar-ask-head">
+		<span class="aar-ask-icon">${icon}</span>
+		<div class="aar-question">${text}</div>
+	</div>
+	${distribution ? `<div class="aar-ask-dist"><div class="aar-ask-dist-label" data-i18n="run.distribution"></div><div class="aar-dist">${distribution}</div></div>` : ''}
+	<div class="aar-actions">${buttons}</div>
+	<div class="aar-row aar-inline">${hint}${recorded}</div>
+</div>
